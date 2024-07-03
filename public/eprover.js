@@ -20,7 +20,7 @@ onmessage = async function(request) {
         }
     }
 
-    const systemOnTPTP = new Request("https://www.tptp.org/cgi-bin/SystemOnTPTPFormReply", {
+    const systemOnTPTP = new Request("https://tptp.org/cgi-bin/SystemOnTPTPFormReply", {
         method: 'POST',
         body: formData
     });
